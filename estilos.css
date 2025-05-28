@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+
+#divisoria{
+    margin-left: 60%;
+    margin-top: 25px;
+    height: 800px;
+    width: 35%;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 4px rgb(158, 158, 158);
+    font-family: arial;
+}
+
+#divisoria input{
+    width: 85%;
+}
+
+#botao{
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 7px;
+    width: 60%;
+    margin-left: 40%;
+}
+
+#resultado{
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+#rodape{
+    box-shadow: 0px 0.1px 4px rgb(53, 53, 53);
+}
+
+#inter{
+    font-family:'Segoe UI' ;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 910px){
+    #divisoria{
+        margin-left: 15%;
+        margin-top: 10px;
+        height: 770px;
+        width: 70%;
+        padding: 30px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 1px 4px rgb(158, 158, 158);
+        font-family: arial;
+    } 
+
+    #pedagio{
+        width: 0%;
+    }
+
+    #resultado{
+        margin-top: 30px;
+        font-size: 14.3px;
+    }
+
+}
+
+@media (min-width: 911px){
+    #pedagio{
+        height: auto;
+        width: 55%;
+        float: left;
+        margin-left: 2%;
+        margin-top: 25px;
+
+    }
+}
+
+#resultado{
+    font-weight: bold;
+}
